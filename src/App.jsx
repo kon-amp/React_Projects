@@ -1,3 +1,5 @@
+import MainGoal from "./MainGoal.jsx";
+
 function Header() {
   return (
   <header>
@@ -18,9 +20,14 @@ function App() {
       <Header />
       <main>
         <h2>Time to get started!</h2>
+        <div className="center">
+          <MainGoal />
+        </div>
       </main>
     </div>
   );
 }
 
 export default App;
+
+

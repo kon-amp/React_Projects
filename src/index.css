@@ -148,3 +148,9 @@ main h2 {
 #tab-content code {
   font-size: 1rem;
 }
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
